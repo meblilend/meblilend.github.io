@@ -1,0 +1,322 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Podkova', serif
+}
+
+.s1{
+    padding-bottom: 53px;
+    background: url(../img/kitchen-1.jpg) center center/cover;
+}
+
+.cont{
+    width: 57%;
+    margin: 0 auto;
+}
+
+.navmenu_text_logo{
+    font-family: 'Amatic SC', cursive;
+    font-size: 45px;
+    font-weight: bold;
+    color: white;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;  
+}
+
+.navmenu_other_link1{
+    font-size: 22px;
+    line-height: 135%;
+    text-align: center;
+    color: #FFFFFF;
+    transition: 1s all;
+}
+
+.navmenu_other_link1:hover{
+    color: #777777;
+}
+
+.navmenu_text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navmenu_text_line{
+    height: 1px;
+    width: 100%;
+    background-color: #fff;
+    position: absolute;
+    top: 60px;
+    left: 0px;
+}
+
+.navmenu_link{
+    text-decoration: none;
+}
+
+
+.ml35{
+    margin-left: 35px;
+}
+
+.navmenu_text_other{
+    display: flex;
+    flex-direction: row;
+}
+
+.s1_content_div1_title{
+    font-weight: bold;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.s1_content_div1_descr{
+    font-size: 19px;
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+.s1_content{
+    margin-top: 184px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.s1_content_div1{
+    width: 500px;
+}
+
+.div2_line_item{
+    width: 260px;
+    padding-bottom: 60px;
+    padding-top: 40px;
+}
+
+
+.div2_line_item{
+    font-weight: 500;
+    font-size: 21px;
+    letter-spacing: -0.01em;
+    color: #343a2a;
+}
+
+.kitchen-to-order{
+    background: url(../img/kuhni-modern/kuhni-modern/kuhnya-stil3.jpg) center center/cover;
+}
+
+.hallway{
+    background: url(../img/prihogie/prihogie/prihogia9.jpg) center center/cover; 
+}
+
+.wardrobes{
+    background: url(../img/hkafi/hkafi/shkaf7.jpg)center center/cover;
+}
+
+.s1_content_div2_line{
+    display: flex;
+}
+
+.s1_content_div2_line2{
+    display: flex;
+    justify-content: center;
+}
+
+.s1_content_div2{
+    display: inline-block;
+}
+
+.s1_content_div2_block{
+    text-align: right;
+    margin-top: 20px;
+}
+
+.s2{
+    /* background-color: rgb(53, 52, 52); */
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: url(../img/tre1.jpg) center center/cover;
+}
+
+.s3{
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.s3_title{
+    font-size: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;   
+    font-family: 'Russo One', sans-serif;   
+}
+
+.s3_block_items{
+    width: 15%;
+    text-align: center;
+}
+
+
+.block_items_text1{
+    color: red;
+    font-size: 16px;
+    list-style-type: none;
+    text-transform: uppercase;
+}
+
+.block_items_text2{
+    color: #333;
+    font-size: 16px;
+    list-style-type: none;
+    text-transform: uppercase;
+}
+
+
+.s3_block{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.footer_text{
+    color: rgb(156, 156, 156);
+    font-size: 19px;
+}
+
+.footer{
+    background-color: #000000;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.footer_content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+.margin-left-30{
+    margin-left: 20px;
+}
+
+
+.margin-top-30{
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 1660px){
+    .cont{
+        width: 67%;
+    }
+
+    .margin-left-30{
+        margin-left: 0px;
+    }
+
+    .margin-top-30{
+        margin-top: 0px;
+    }
+    
+    .s1_content_div2{
+        display: flex;
+        justify-content: space-around;
+    } 
+
+
+    .s1_content{
+        margin-top: 160px;  
+        display: block;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .s1_content_div2{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .margin-top-30{
+        margin-top: 15px;
+    }
+
+}
+
+@media screen and (max-width: 768px){
+    .margin-top-30{
+        margin-top: 0px;
+    }
+
+    .div2_line_item{
+        margin-top: 15px;
+    }
+
+    .cont{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .s1_content_div1{
+        width: auto;
+    }
+
+    .s3_block{
+        flex-wrap: wrap;
+    }
+
+    .s3_block_items{
+        width: 140px;
+        margin-top: 15px;
+    }
+
+    .footer_content{
+        flex-direction: column;
+    }
+
+    .footer_number{
+        margin-top: 8px;
+    }
+
+    .footer_info{
+        margin-top: 8px;
+    }
+
+    .cont{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .navmenu_text_line{
+        top: 90px;
+    }
+
+    .navmenu_text{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .s1_content_div1_descr{
+        font-size: 17px;
+    }
+
+    .s1_content_div1_title{
+        font-size: 27px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .div2_line_item {
+        width: 220px;
+        padding-bottom: 30px;
+        padding-top: 30px;
+    }
+}
