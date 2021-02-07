@@ -57,28 +57,37 @@ body{
 
 
 .s1_cont_item_img7{
-    width: 330px;
-    margin-left: -50px;
-    width: 220;
-    height: 210px;
+    width: 220px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
+
 
 .s1_cont_item_img8{
-    width: 330px;
-    margin-left: -50px;
-    width: 220;
-    height: 210px;
+    width: 220px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
+
 
 .s1_cont_item_img10{
-    width: 330px;
-    margin-left: -50px;
-    width: 220;
-    height: 210px;
+    width: 220px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
+ 
+
+
+
 
 .s1_cont_item_img11{
-    width: 330px;
+    width: 220px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
